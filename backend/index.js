@@ -36,8 +36,6 @@ if(process.env.NODE_ENV === 'production'){
 
 }
 
-
-
 //Listening on localhost
 app.listen(PORT, (req, res) => {
   // Connecting to database
